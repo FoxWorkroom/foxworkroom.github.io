@@ -1,0 +1,94 @@
+article{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+p, h3, ul {
+  width: 660px;
+  line-height: 1.6;
+  line-break: auto;
+}
+
+p, ul {
+  font-size: 90%;
+}
+
+ul {
+  margin: 0px 0px 30px 0px;
+}
+
+header, blockquote {
+  font-family: 'Abril Fatface', cursive;
+}
+
+header {
+  font-size: 300%; 
+  width: 700px;
+}
+
+img {
+  width: 1280px;
+  position: absolute;
+  z-index: -1;
+}
+
+header h5 {
+  margin: 220px 0px 0px 0px;
+}
+
+header h1 {
+  margin: 0px 0px 75px 0px;
+}
+
+blockquote {
+  font-size: 200%;
+  background-color: #222;
+  color: white;
+  padding: 5px 0px 10px 40px;
+  margin: 50px 0px 0px 0px;
+  width: 750px;
+  position: relative;
+}
+
+  blockquote h2::before {
+    content: '“';
+    font-size: 220%;
+    position: absolute;
+    left: 5px;
+    top: -25px;
+  }
+
+.uppercase {
+  text-transform: uppercase;
+  margin: 50px 0px 40px 0px;
+}
+
+h3 {
+  font-size: 130%;
+  margin: 0px;
+}
+
+.introduction {
+  font-size: 120%;
+}
+
+.job {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  margin: 0px 0px 20px 0px;
+  line-height: 1.4;
+}
+
+.line {
+  width: 750px;
+  height: 5px;
+  background-color: #222;
+}
+
+footer {
+  padding: 0px 0px 30px 0px;
+}
